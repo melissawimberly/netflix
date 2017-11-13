@@ -7,3 +7,31 @@ body {
 .landing-logo {
   max-width: 145px;
 }
+
+.category-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 98%;
+}
+.move-wrapper, .meditation-wrapper, .breath-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid #9EC6A6;
+  border-radius: 3px;
+  width: 30%;
+  height: 250px;
+}
+
+.video-overlay-text {
+  z-index: 9999;
+  position: absolute;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
