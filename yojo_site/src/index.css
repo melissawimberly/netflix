@@ -8,10 +8,6 @@ body {
   max-width: 145px;
 }
 
-.video-carousel-wrapper {
-  width: 100%;
-  height: 200px;
-}
 .category-wrapper {
   display: flex;
   justify-content: space-between;

@@ -11,7 +11,7 @@ class Breath extends React.Component {
           height="100%"
           className="sproutvideo-player move-top-video">
         </iframe>
-        <div className="video-overlay-text">Breath</div>
+        {/* <div className="video-overlay-text">Breath</div> */}
         <ReactTooltip id="video-breath-tooltip" class="yojo-tooltip video-tooltip" place="bottom" effect="solid">Take a few minutes to breath.</ReactTooltip>
       </div>
     )
